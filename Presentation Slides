@@ -1,0 +1,59 @@
+Slide 1: Title Slide
+
+Title: EcoStruct AI: Predictive Site Feasibility for Additive Construction
+
+Subtitle: Conceptual Design Track Presentation
+
+Name: Jonathan Smith
+
+Date: Fall 2024
+
+Slide 2: The Bottleneck in 3D Construction
+
+Bullet 1: 3D concrete printing promises fast, sustainable housing.
+
+Bullet 2: The Problem: Pre-construction feasibility takes weeks of manual calculation.
+
+Bullet 3: Environmental variables (weather, topology) easily disrupt concrete curing if miscalculated.
+
+Bullet 4: High risk of material waste and regulatory non-compliance.
+
+Slide 3: The EcoStruct AI Solution
+
+Concept: A digital twin feasibility agent.
+
+Function: Users input a site address and building size. The AI autonomously pulls topological, weather, and legal data to generate a complete feasibility report.
+
+Output: Predicts required concrete volume, structural viability, and financial costs in minutes instead of weeks.
+
+Slide 4: System Architecture
+
+Front-End: Python/Gradio interactive dashboard.
+
+The Brain: LangChain + LLM orchestration layer.
+
+The Tools:
+
+Predictive ML: Regression models for cost and material estimation.
+
+RAG Framework: Vector databases for querying municipal building codes.
+
+APIs: GIS mapping and NOAA weather integration.
+
+Slide 5: Testing & Validation
+
+API Testing: Automated queries to ensure reliable external data fetching and error handling.
+
+Back-Testing: Running the predictive ML model against historical data from completed 3D prints to ensure < 5% margin of error.
+
+Hallucination Mitigation: Stress-testing the RAG system to ensure strict adherence to local zoning laws without fabricating data.
+
+Slide 6: Conclusion & Impact
+
+Impact 1: Drastically cuts pre-construction overhead costs.
+
+Impact 2: Eliminates material waste by predicting optimal concrete mixtures.
+
+Impact 3: Accelerates the deployment of sustainable housing solutions.
+
+(Include an area for "Questions?")
